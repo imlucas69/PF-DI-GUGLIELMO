@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=REM:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav{
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.imglogo{
+    width: 50px;
+    height: 70px;
+}
+
+#header{
+    background-image: url(../img/paisaje-de-montanas-en-el-bosque-diseno-minimalista-6345.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0 0 10px 0;
+}
+
+.index-main{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#menu{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.text-primary{
+    font-size: 30px;
+}
+
+.navbar{
+    background: linear-gradient(rgba(156, 161, 241, 0.8), rgba(197, 236, 241, 0.8));
+}
+
+.navbar-nav .nav-item{
+    margin-right: 15px;
+}
+
+.navbar-nav li:hover{
+    transform: scale(1.1);
+}
+
+.navbar-nav li a:hover{
+    color: rgb(42, 92, 255);
+}
+
+/* -------------------------------------- */
+
+.first-part{
+    max-width: 400px;
+    border-radius: 20px;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)); */
+    background: transparent;
+}
+
+.slogan{
+    margin-bottom: 0;
+    font-family: 'Market_Deco';
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.first-title{
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.container-first-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-lonely-wolf{
+    border-radius: 20px;
+    padding: 5px;
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.descripcion{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.desc-1{
+    color: #ffffff; 
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.fb{
+    width: 30px;
+    height: 25px;
+}
+
+.ig{
+    width: 30px;
+    height: 30px;
+}
+
+body{
+    background-image: url(../img/paisaje-de-montanas-en-el-bosque-diseno-minimalista-6345.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.photo-shine{
+    border-radius: 10%;
+}
+
+/* ----------------------------------------------------------------------------
+-----------------UBICACIONES------------------------------------------------ */
+
+.ubicaciones-page3{
+    border-bottom: 3px solid #ff8f9f;
+    padding: 10px;
+    background-color: #000000bd;
+    margin: 10px auto;
+    max-width: 31%;
+    margin-bottom: 10px !important;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+/* ------------------------------------------------------------------ */
+
+.formulario {
+    max-width: 720px;
+}
+
+.formulario {
+    max-width: 540px;
+}
+.formulario{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
