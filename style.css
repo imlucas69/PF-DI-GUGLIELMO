@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=REM:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/paisaje-de-montanas-en-el-bosque-diseno-minimalista-6345.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background: linear-gradient(rgba(156, 161, 241, 0.8), rgba(197, 236, 241, 0.8));
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.navbar-nav li:hover {
+  transform: scale(1.1);
+}
+
+.navbar-nav li a:hover {
+  color: rgb(42, 92, 255);
+}
+
+#header {
+  background-image: url("../img/paisaje-de-montanas-en-el-bosque-diseno-minimalista-6345.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0 0 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-main {
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text-primary {
+  font-size: 30px;
+}
+
+.first-title, .slogan {
+  font-family: "Bebas Neue", sans-serif;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.container-first-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-lonely-wolf {
+  border-radius: 20px;
+  padding: 5px;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.descripcion {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.desc-1 {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.fb, .ig {
+  width: 30px;
+  height: 25px;
+}
+
+.photo-shine {
+  border-radius: 10%;
+}
+
+.ubicaciones-page3 {
+  border-bottom: 3px solid #ff8f9f;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7411764706);
+  margin: 10px auto;
+  max-width: 31%;
+  margin-bottom: 10px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.formulario {
+  max-width: 720px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 5px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(-5px, -5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.container-first-photo {
+  animation: moveImage 5s ease infinite; /* Ajusta la duración y el efecto según tus preferencias */
+}
+
+/*# sourceMappingURL=style.css.map */
