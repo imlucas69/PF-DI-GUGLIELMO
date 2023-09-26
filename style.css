@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url("../img/paisaje-de-montanas-en-el-bosque-diseno-minimalista-6345.jpg");
+  background-image: url("../img/paisaje-de-montanas-en-el-bosque-diseno-minimalista-6345.jpg") !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

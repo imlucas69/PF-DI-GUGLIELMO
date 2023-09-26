@@ -26,7 +26,7 @@ $text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
 body {
-  background-image: url($background-image-url);
+  background-image: url($background-image-url) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
