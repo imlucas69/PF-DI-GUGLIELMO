@@ -41,7 +41,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 0 0 10px 0;
+  padding: 0 0 0 0;
   justify-content: center;
   align-items: center;
 }
@@ -57,7 +57,7 @@ body {
   font-size: 30px;
 }
 
-.first-title, .slogan {
+.first-title, .slogan, .galeria-text {
   font-family: "Bebas Neue", sans-serif;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
@@ -84,17 +84,12 @@ body {
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
-.fb, .ig {
-  width: 30px;
-  height: 25px;
-}
-
 .photo-shine {
   border-radius: 10%;
 }
 
 .ubicaciones-page3 {
-  border-bottom: 3px solid #ff8f9f;
+  border-bottom: 3px solid #00a2ff;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.7411764706);
   margin: 10px auto;
@@ -141,4 +136,12 @@ body {
   animation: moveImage 5s ease infinite; /* Ajusta la duración y el efecto según tus preferencias */
 }
 
+.carousel-item{
+  height: 1000px;
+}
+
+.horarios-atencion-info{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
